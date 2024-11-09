@@ -1,5 +1,5 @@
 # 🍄 Power Up via Memory
-My project is a memory card matching game based off a theme of the original NES Super Mario Bros game.  The objective is to match pairs of the power up images by flipping over the cards & remembering their positons.  As you match cards you gain "coins" in the process.
+My project is a memory card matching game based off a theme of the original NES Super Mario Bros game.  The goal is to match pairs of the power up images by flipping over the cards & remembering their positons.  As you match cards you gain "coins" in the process.
 
 ## Technologies
 - HTML5

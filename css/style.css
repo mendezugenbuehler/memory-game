@@ -13,77 +13,16 @@ html, body {
 }
 
 body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'SuperMarioFont', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     text-align: center;
-}
-
-.game-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff; 
-    padding: 20px;
-    border-radius: 10px;
-    width: 500px; 
-    text-align: center;
-}
-
-@media (max-width: 600px) {
-    .game-container {
-        width: 90%; 
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 1.8rem; 
-        margin-bottom: 15px;
-    }
-
-    #score {
-        font-size: 1.2rem; 
-        margin-bottom: 15px;
-    }
-
-    #game-board {
-        width: 100%; 
-        grid-template-columns: repeat(3, 1fr); 
-        gap: 10px; 
-    }
-
-    .card {
-        width: 80px; 
-        height: 80px;
-    }
-
-    #reset-button {
-        padding: 10px 20px; 
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .game-container {
-        width: 80%; 
-    }
-
-    #game-board {
-        width: 90%; 
-        grid-template-columns: repeat(4, 1fr); 
-    }
-
-    .card {
-        width: 100px; 
-        height: 100px;
-    }
-
-    h1 {
-        font-size: 2rem; 
-    }
 }
 
 h1 {
@@ -104,15 +43,15 @@ h1 {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for the grid layout */
     gap: 15px;
     margin: 20px auto;
     width: 412.5px;
 }
 
 .card {
-    width: 93.75px;
-    height: 93.75px;
+    width: 93.75px; /* Card width */
+    height: 93.75px; /* Card height */
     border: 2px solid #000;
     background-color: #ddd;
     background-image: url('images/card-back.png');

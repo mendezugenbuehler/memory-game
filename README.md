@@ -4,7 +4,7 @@ My project "Power Up via Memory" is a memory card matching game based off a them
 ![Power_Up_Via_Memory](https://github.com/user-attachments/assets/591a58c1-6fc6-4078-aa08-bf30032e58bd)
 
 ## Getting Started
-[Click here](https://avisa-ga.github.io/first-web-app-project/)
+[Click here to play](https://mendezugenbuehler.github.io/memory-game/)
 
 ### Wireframe
 ![Power_Up_Via_Memory_Wireframe](https://github.com/user-attachments/assets/e8ea51b5-8abd-4f58-be52-7eae51aab6d1)

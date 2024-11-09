@@ -1,44 +1,60 @@
+@font-face {
+    font-family: 'SuperMarioFont';
+    src: url('/super-mario-bros-nes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-body {
-    background-image: url('images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+html, body {
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'SuperMarioFont', Arial, sans-serif; 
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'SuperMarioFont', Arial, sans-serif;
     display: flex;
-    flex-direction: column;  
-    justify-content: center; 
-    align-items: center;    
-    min-height: 100vh;      
-    text-align: center;     
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
 
 h1 {
-    font-size: 2.25rem;  
-    color: #333;
+    font-size: 2.25rem;
+    color: #080707;
     margin-bottom: 20px;
 }
 
+#instructions {
+    margin-bottom: 15px;
+}
+
 #score {
-    font-size: 1.5rem; 
-    margin-bottom: 20px; 
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 15px;  
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
     margin: 20px auto;
-    width: 412.5px;  
+    width: 412.5px;
 }
 
 .card {
-    width: 93.75px;    
-    height: 93.75px;   
+    width: 93.75px;
+    height: 93.75px;
     border: 2px solid #000;
     background-color: #ddd;
-    background-image: url('images/card-back.png'); 
+    background-image: url('images/card-back.png');
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -47,7 +63,7 @@ h1 {
 }
 
 #reset-button {
-    margin-top: 20px; 
+    margin-top: 20px;
     padding: 8px 16px;
     font-size: 14px;
     background-color: #f30505;
@@ -55,6 +71,7 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'SuperMarioFont', Arial, sans-serif;
 }
 
 #reset-button:hover {

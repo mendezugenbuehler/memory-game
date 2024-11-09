@@ -35,7 +35,6 @@ The following resources were used in the game:
 
 ## Next Steps & Future Enhancement
 - Leaderboard for high score player
-- Mobile version
 - Dark Mode
 - Ability to mute SFX (coin audio for matching pair)
 - Logic to lose coins (score) for mismatched pairs

@@ -1,7 +1,6 @@
 # 🍄 Power Up via Memory
 My project "Power Up via Memory" is a memory card matching game based off a theme of the original NES Super Mario Bros game.  The goal is to match pairs of the power up images by flipping over the cards & remembering their positons.  As you match cards you gain "coins" in the process.
 
-### Screenshot of the App
 ![Power_Up_Via_Memory](https://github.com/user-attachments/assets/591a58c1-6fc6-4078-aa08-bf30032e58bd)
 
 ## Getting Started

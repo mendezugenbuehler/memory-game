@@ -9,6 +9,11 @@ My project "Power Up via Memory" is a memory card matching game based off a them
 ### Wireframe
 ![Power_Up_Via_Memory_Wireframe](https://github.com/user-attachments/assets/e8ea51b5-8abd-4f58-be52-7eae51aab6d1)
 
+## Technologies
+- HTML5
+- CSS3
+- JavaScript
+
 ### External Resources & Attributions:
 The following resources were used in the game:
 
@@ -28,14 +33,10 @@ The following resources were used in the game:
 - Coin sound effect inspired by Super Mario Bros:  
   [Mario Coin Sound - MyInstants](https://www.myinstants.com/en/instant/coin-mario/)
 
-## Technologies
-- HTML5
-- CSS3
-- JavaScript
-
 ## Next Steps & Future Enhancement
-- Leaderboard for high score player
-- Dark Mode
-- Ability to mute SFX (coin audio for matching pair)
-- Logic to lose coins (score) for mismatched pairs
+- Leaderboard for high score players
+- Mobile-friendly version
+- Dark Mode option
+- Ability to mute sound effects 
+- Coin (Score) penalty for mismatched pairs
 

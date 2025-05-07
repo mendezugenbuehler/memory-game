@@ -43,15 +43,15 @@ h1 {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns for the grid layout */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 15px;
     margin: 20px auto;
     width: 412.5px;
 }
 
 .card {
-    width: 93.75px; /* Card width */
-    height: 93.75px; /* Card height */
+    width: 93.75px; 
+    height: 93.75px; 
     border: 2px solid #000;
     background-color: #ddd;
     background-image: url('images/card-back.png');
